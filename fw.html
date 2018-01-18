@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广佛智城</title>
+<link rel="stylesheet" type="text/css" href="style/base.css"/>
+<link rel="stylesheet" type="text/css" href="style/page.css"/>
+<script type="text/javascript" src="script/jquery-1.8.1.min.js"></script>
+<script src="script/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="script/common.js"></script>
+</head>
+
+<body class="bg_fw">
+
+<div class="topline"></div>
+
+<!--header-->
+<div class="header">
+    <h1 class="fl"><a href="index.html" class="logo">广佛智城-智造无限体验</a></h1>
+    <ul class="nav fr">
+        <li><a href="index.html">首页<span>HOME</span></a></li>
+        <li><a href="ds.html">体验之都<span>FACITIES</span></a></li>
+        <li class="cur_i"><a href="fw.html">配套设施<span>SUPPORTING</span></a></li>
+        <li><a href="dt.html">资讯动态<span>NEWS</span></a></li>
+        <li><a href="about.html">关于智城<span>BRAND</span></a><div class="nav_bg"></div></li>
+        <li><a href="lx.html">招商租赁<span>CONTACT</span></a></li>
+        <li class="cur nav_fw" id="navCur"></li>
+    </ul>
+</div>
+
+<!--主内容-->
+<div class="cont fw" id="cont"> 
+    <!--软件--> 	
+    <div class="contbox">
+        <div class="fw_rj">
+            <img src="images/fw_rj.png" />     
+        </div>
+        <!--漂浮块-->
+        <div class="floatBox pos1">
+            <img src="images/s13.png" class="fb13" />
+            <img src="images/s11.png" class="fb14" />
+            <img src="images/s10.png" class="fb16" /> 
+        </div>
+    </div>
+    
+    <!--硬件--> 	
+    <div class="contbox">
+        <div class="fw_yj">
+            <img src="images/fw_yj.png" />     
+        </div>
+        <!--漂浮块-->
+        <div class="floatBox pos1">
+            <img src="images/s13.png" class="fb8" />
+            <img src="images/s10.png" class="fb9" id="db1" />
+            <img src="images/s12.png" class="fb10" />
+            <img src="images/s15.png" class="fb12" />
+        </div>
+    </div>
+    <!--外围--> 	
+    <div class="contbox">
+        <div class="fw_ww">
+            <img src="images/fw_ww.png" />     
+        </div> 
+        <!--漂浮块-->
+        <div class="floatBox pos1">
+            <img src="images/s16.png" class="fb17" />
+            <img src="images/s9.png" class="fb18" />
+            <img src="images/s14.png" class="fb19" />
+            
+            <img src="images/s20.png" class="fb23" />
+            <img src="images/s16.png" class="fb24" /> 
+        </div>
+    </div>
+    <!--交通--> 	
+    <div class="contbox">
+        <div class="fw_jt pr">
+            <img src="images/fw_jt.png" />  <img src="images/ari.png" class="ari" />   
+        </div>
+        
+        <!--漂浮块-->
+        <div class="floatBox pos1"> 
+            <img src="images/s10.png" class="fb9" id="db2" />
+            <img src="images/s12.png" class="fb10" />
+            <img src="images/s14.png" class="fb11" />
+            <img src="images/s15.png" class="fb12" />
+        </div>
+    </div>
+</div>
+
+<!--步骤-->
+<ul class="step step_ds step_fw" id="step">
+    <li><i class="s1"></i></li>
+    <li><i class="s2"></i></li>
+    <li><i class="s3"></i></li>
+    <li><i class="s4"></i></li>
+</ul>
+
+<!--过渡色块-->
+<div class="g_fw1 g_bg"><p class="spanbg"></p></div>
+<div class="g_fw2 g_bg"><p class="spanbg"></p></div>
+<div class="g_fw3 g_bg"><p class="spanbg"></p></div>
+<div class="g_fw4 g_bg"><p class="spanbg"></p></div>
+
+<!--footer-->
+<div class="footer">
+	<p class="fl">版权所有 © 2012 佛山市广佛智城商业地产投资有限公司</p>
+    <p class="fr">贵宾热线：0757-85550188      400-888-3382</p>
+</div>
+
+<ul class="side">
+	<li><a class="ico_wb" href="#">官方微博</a></li>
+    <li><a class="ico_wx" id="wx" href="javascript:;">官方微信</a></li>
+    <li class="side_zs"><a class="ico_zs" id="ico_zs" href="javascript:;">招商租赁</a></li>
+</ul>
+<div class="wx_box" id="wxBox">
+	<a href="javascript:;" id="closeWx"></a>
+    <a href="#" class="gzwb">广佛智城 点击关注官方微博</a>
+</div>
+<!--招商-->
+<div class="box_zs" id="box_zs">
+	<div class="box_zs_bg">
+	<div class="bg_zs">
+    	<div class="box_txt"><input type="text" value="姓名" tipmsg="姓名" class="txt txtfb" /></div>
+        <div class="box_txt white"><label class="pr20"><input type="radio" name="sex" value="1" checked="checked" /> 先生</label><input type="radio" name="sex" value="0" /> 女士</div>
+        <div class="box_txt"><input type="text" value="邮箱" tipmsg="邮箱" class="txt txtfb" /></div>
+        <div class="box_txt"><input type="text" value="电话" tipmsg="电话" class="txt txtfb" /></div>
+        <textarea class="txtarea txtfb" tipmsg="备注">备注</textarea>
+        <input type="button" class="btn_tj" id="btn_tj" value="提交" />
+        <img src="images/box_close.png" class="close_zs" id="close_zs" />
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

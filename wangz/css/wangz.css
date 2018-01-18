@@ -1,0 +1,22 @@
+body { background: #00679a; }
+/*硬件*/
+.hardware { position: relative; width: 748px; height: 556px;}
+.hardware .text { position: absolute; top: 60px; left: 20px; }
+.hardware .pic { position: absolute; top: 10px;}
+.hardware .block1 { position: absolute; right: 0px; top: 220px;}
+.hardware .block2 { position: absolute; right: 15px; top: 193px;  }
+.hardware .block3 { position: absolute; left: 7px; top: 230px; }
+.hardware .block4 { position: absolute; left: 270px; top: 0px;}
+.step { margin-top: 40px; }
+/**/
+
+
+/*软件*/
+.software { margin-top: 100px; position: relative; width: 1000px; height: 590px; }
+.software .text { position: absolute; top: 58px; right: 0px; }
+.software .pic { position: absolute; top: 0px; left: 20px;}
+.software .block8 { position: absolute; left: 35px; top: 0px;}
+.software .block7 { position: absolute; left: 0px; top: 190px; }
+.software .block5 { position: absolute; right: 74px; top: 285px; }
+.software .block6 { position: absolute; right: 82px; top: 270px;}
+/**/

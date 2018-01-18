@@ -1,0 +1,47 @@
+/* CSS Document */
+body{background-color: #d36c28;}
+
+.main{
+	margin: 50px auto;
+	width:1132px;
+	height: 525px;
+}
+
+.left_div{
+	position: relative;
+	z-index: 1;
+}
+.left_div .block{width:1130px;height: 520px; position: absolute;}
+.blue{
+	z-index: 6;
+	background:url(../image/blue_all.png) no-repeat left bottom
+}
+.hs2{
+	top: 123px;
+	background: url(../image/hs2.png) no-repeat top
+}
+.hs1{
+	background:url(../image/hs1.png) no-repeat left bottom
+}
+.fs{
+	background:url(../image/fs.png) no-repeat left bottom
+}
+.zs{
+	background:url(../image/zs.png) no-repeat left bottom
+}
+
+
+.right_div{z-index: 4;}
+.right_div .block{width:1130px;height: 520px; position: absolute;}
+.building{
+	z-index: 5;
+	background:url(../image/buliding.png) no-repeat right bottom}
+.text_png{background: url(../image/tyzd.png) no-repeat right top}
+
+
+.bottom{
+	margin: 20px auto;
+	width: 629px;
+	height: 92px;
+	background:url(../image/bottom.png) no-repeat 
+}
